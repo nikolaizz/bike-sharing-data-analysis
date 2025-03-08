@@ -10,6 +10,7 @@ sns.set(style='dark')
 st.set_page_config(
     page_title="Bike Rental Dashboard",
     page_icon=":bike:",
+    initial_sidebar_state="collapsed"
 )
 
 def create_hourly_data(df):
