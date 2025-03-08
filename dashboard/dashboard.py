@@ -58,8 +58,8 @@ def create_anomaly_data(df):
   
   return daily_data, anomalies, threshold
 
-day_df_clean = pd.read_csv('day_clean.csv')
-hour_df_clean = pd.read_csv('hour_clean.csv')
+day_df_clean = pd.read_csv('dashboard/day_clean.csv')
+hour_df_clean = pd.read_csv('dashboard/hour_clean.csv')
 
 with st.sidebar:
   st.image('https://allvectorlogo.com/img/2017/07/capital-bikeshare-logo.png')
