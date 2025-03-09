@@ -59,8 +59,8 @@ def create_anomaly_data(df):
   
   return daily_data, anomalies, threshold
 
-day_df_clean = pd.read_csv('day_clean.csv')
-hour_df_clean = pd.read_csv('hour_clean.csv')
+day_df_clean = pd.read_csv('dashboard/day_clean.csv')
+hour_df_clean = pd.read_csv('dashboard/hour_clean.csv')
 
 datetime_columns = ['Date']
 day_df_clean[datetime_columns] = day_df_clean[datetime_columns].apply(pd.to_datetime)
