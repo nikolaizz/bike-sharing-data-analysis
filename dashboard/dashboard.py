@@ -108,7 +108,7 @@ with tab1:
   st.divider()
   
   st.subheader("Working Day Data")
-  st.write("The working day data shows the average bike rental count by working day.")
+  st.write("The working day data shows the average bike rental count by holiday/weekend or working day from January 2011 to December 2012")
 
   fig, ax = plt.subplots(figsize=(16, 8))
 
@@ -124,7 +124,7 @@ with tab1:
   st.divider()
 
   st.subheader("Seasonal Data")
-  st.write("The seasonal data shows the average bike rental count by season.")
+  st.write("The seasonal data shows the average bike rental count by season from January 2011 to December 2012.")
 
   fig, ax = plt.subplots(figsize=(16, 8))
 
